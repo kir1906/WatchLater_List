@@ -87,8 +87,8 @@ const AuthComponent = () => {
           />
         </div>
         <div className='but'>
-          <button className='bu' onClick={handleLogin}>Signin</button>
-          <button className='lo' onClick={handleSignup}>Signup</button>
+          <button className='bu2' onClick={handleLogin}>Signin</button>
+          <button className='lo2' onClick={handleSignup}>Signup</button>
         </div>
       </div>
       <ToastContainer />

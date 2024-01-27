@@ -14,18 +14,18 @@
 .ti{
   color: #312651;
   font-family: "Darker Grotesque";
-  font-size: 50px;
+  font-size: 3em;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .bu{
-  width: 167px;
-  height: 54px;
+  width: 25%;
+  height: 7vh;
   background-color: #312651;
   color: #FFF7DD;
   font-family: "Darker Grotesque";
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 400;
   border-radius: 15px;
   border: 1px solid #FFF7DD;
@@ -37,24 +37,24 @@
   justify-content: end;
 }
 .lo{
-  width: 167px;
-  height: 54px;
+  width: 25%;
+  height: 7vh;
   background-color: #FFF7DD;
   color: #312651;
   font-family: "Darker Grotesque";
-  font-size: 20px;
+  font-size: 1.2em;
   margin-left: 5%;
   font-weight: 400;
   border-radius: 15px;
   border: 1px solid #312651;
 }
 .lo:hover{
-  width: 167px;
-  height: 54px;
+  width: 25%;
+  height: 7vh;
   background-color: #312651;
   color: #FFF7DD;
   font-family: "Darker Grotesque";
-  font-size: 20px;
+  font-size: 1.2em;
   margin-left: 5%;
   font-weight: 400;
   border-radius: 15px;
@@ -62,9 +62,75 @@
 }
 .arr{
   display: flex;
+  overflow-y: auto;
+  height: 80vh;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
+}
+@media (max-width: 600px) {
+  .he{
+    padding-top: 20px;
+  }
+  .ti{
+    font-size: 1em;
+  }
+  .lo{
+    width: 80px;
+    font-size: 1em;
+    height: 40px;
+  }
+  .lo:hover{
+    font-size: 1em;
+    width: 80px;
+    height: 40px;
+  }
+  .bu{
+    font-size: 1em;
+    width: 80px;
+    height: 40px;
+  }
+  .bu:hover{
+    font-size: 1em;
+    width: 80px;
+    height: 40px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  
+  .ti {
+      font-size: 2em;
+  }
+  .lo{
+    width: 100px;
+    font-size: 1em;
+    height: 45px;
+
+  }
+  .lo:hover{
+    font-size: 1em;
+    width: 100px;
+    height: 45px;
+  }
+  .bu{
+    font-size: 1em;
+    width: 100px;
+    height: 45px;
+  }
+  .bu:hover{
+    font-size: 1em;
+    width: 100px;
+    height: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .arr {
+      width: 100%;
+      flex-wrap:wrap;
+      overflow: scroll;
+      flex-direction: row;
+      /* Stretch items to full width in column layout */
+  }
 }
 .emp{
   font-family: 'Darker Grotesque';
@@ -73,12 +139,12 @@
   color: rgb(164, 164, 164);
 }
 .bu:hover{
-  width: 167px;
-  height: 54px;
+  width: 25%;
+  height: 7vh;
   background-color: #FFF7DD;
   color: #312651;
   font-family: "Darker Grotesque";
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 400;
   border-radius: 15px;
   border: 1px solid #312651;
@@ -107,8 +173,6 @@
   width: 50%;
   height: 60%;
 }
-
-
 
 form {
   display: flex;

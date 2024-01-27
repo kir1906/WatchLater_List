@@ -15,7 +15,7 @@
 }
 .title{
     font-size: 45px;
-    margin: 29% 0px 6% 0px;
+    margin: 29% 0px 6% 3%;
     font-family: 'Darker Grotesque';
     font-weight: 400;
     color: #312651;
@@ -28,6 +28,7 @@
 }
 .but{
     width: 47%;
+    margin-left: 3%;
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -54,4 +55,67 @@
     border-radius: 3.823px;
     border: 0.478px solid #b6b0c7;
     background: #FFF7DD;
+}
+.bu2{ 
+  width: 48%;
+  height: 6.5vh;
+  background-color: #312651;
+  color: #FFF7DD;
+  font-family: "Darker Grotesque";
+  font-size: 1.2em;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 1px solid #FFF7DD;
+}
+.bu2:hover{ 
+    width: 48%;
+    height: 6.5vh;
+    background-color: #FFF7DD;
+    color: #312651;
+    font-family: "Darker Grotesque";
+    font-size: 1.2em;
+    font-weight: 400;
+    border-radius: 15px;
+    border: 1px solid #312651;
+  }
+.lo2{
+    width: 48%;
+  height: 6.5vh;
+  background-color: #FFF7DD;
+  color: #312651;
+  font-family: "Darker Grotesque";
+  font-size: 1.2em;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 1px solid #312651;
+}
+.lo2:hover{ 
+    width: 48%;
+    height: 6.5vh;
+    background-color: #312651;
+    color: #FFF7DD;
+    font-family: "Darker Grotesque";
+    font-size: 1.2em;
+    font-weight: 400;
+    border-radius: 15px;
+    border: 1px solid #FFF7DD;
+  }
+
+  @media (max-width: 600px) {
+    .title{
+        font-size: 25px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .bu2{
+        font-size: 15px;
+    }
+    .bu2:hover{
+        font-size: 15px;
+    }.lo2{
+        font-size: 15px;
+    }.lo2:hover{
+        font-size: 15px;
+    }
 }

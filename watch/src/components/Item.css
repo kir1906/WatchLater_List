@@ -1,6 +1,6 @@
 .it{
-    width: 681px;
-    height: 159px;
+    width: 45%;
+    height: 19.4vh;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
@@ -14,8 +14,8 @@
 .poster{
     margin-left: 20px;
     display: flex;
-    width: 111px;
-    height: 111px;
+    width: 17.1%;
+    height: 70%;
     /* padding: 31px; */
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
 }
 
 .genre{
-    width: 50px;
+    width: 6vh;
     height: 20px;
     display: flex;
     color: rgba(49, 38, 81, 0.75);
@@ -97,7 +97,7 @@
 .icon{
     color: #000;
     font-family: Inter;
-    font-size: 50px;
+    font-size: 3.2em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -105,4 +105,25 @@
 .image:hover{
     width: 40px;
     height: 40px;
+}
+
+
+@media (max-width: 800px) {
+    .it {
+        width: 75%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .poster {
+        display: none;
+    }
+    
+    .icon {
+        font-size: 0;
+        display: none;
+    }
+    .des{
+        width: 100%;
+    }
 }

@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import NULL from '../otts/NULL.svg'
+import Loader from "./Loader.js"
 // import Loader from '../components/Loader.js';
 const animatedComponents = makeAnimated();
 
@@ -172,7 +173,7 @@ function Main() {
     watchlist.map((item) => <Item key={item.id} movie={item} onDelete={() => handleDelete(item.id)} />)
   ) : (
     <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-    <img style={{width:'20%', display:'block',marginTop:'10%'}}src={NULL}/>
+    <img style={{width:'20%',marginTop:'20vh'}}src={NULL}/>
     <p className='emp'>List is Empty!!</p>
     </div>
   );
@@ -215,9 +216,9 @@ function Main() {
           </div>
         </div>
       )}
-
       {loading ? (
-        <p>Loading...</p>
+        
+        <Loader/>
       ) : (
         <section className='arr'>{cards}</section>
       )}
