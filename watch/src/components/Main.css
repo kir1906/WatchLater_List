@@ -1,0 +1,179 @@
+.he {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Darker Grotesque";
+  align-items: center;
+  margin: 0px 50px;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF7DD;
+}
+.ti{
+  color: #312651;
+  font-family: "Darker Grotesque";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bu{
+  width: 167px;
+  height: 54px;
+  background-color: #312651;
+  color: #FFF7DD;
+  font-family: "Darker Grotesque";
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 1px solid #FFF7DD;
+}
+.butt{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.lo{
+  width: 167px;
+  height: 54px;
+  background-color: #FFF7DD;
+  color: #312651;
+  font-family: "Darker Grotesque";
+  font-size: 20px;
+  margin-left: 5%;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 1px solid #312651;
+}
+.lo:hover{
+  width: 167px;
+  height: 54px;
+  background-color: #312651;
+  color: #FFF7DD;
+  font-family: "Darker Grotesque";
+  font-size: 20px;
+  margin-left: 5%;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 1px solid #FFF7DD;
+}
+.arr{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.emp{
+  font-family: 'Darker Grotesque';
+  font-size: 15px;
+  margin: 0px;
+  color: rgb(164, 164, 164);
+}
+.bu:hover{
+  width: 167px;
+  height: 54px;
+  background-color: #FFF7DD;
+  color: #312651;
+  font-family: "Darker Grotesque";
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 1px solid #312651;
+}
+
+.modal {
+  display: flex;
+  color: #312651;
+  font-family: "Darker Grotesque";
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #58516d;
+  position: relative;
+  width: 50%;
+  height: 60%;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+input {
+  margin-bottom: 5px;
+  padding: 8px;
+  border: 1px solid #312651;
+  border-radius: 4px;
+}
+.sele{
+  margin-bottom: 5px;
+  padding: 8px;
+  height: 32px;
+  border: 1px solid #312651;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.sub {
+  margin-top: 5%;
+  padding: 10px;
+  background-color: #312651;
+  color: #fff;
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.sub:hover {
+  margin-top: 5%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #312651;
+  border: 0.5px solid #312651;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.close{
+  margin-top: 2%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #312651;
+  border: 0.5px solid #312651;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.close:hover{
+  margin-top: 2%;
+  padding: 10px;
+  background-color: #312651;
+  color: #fff;
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

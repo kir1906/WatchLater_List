@@ -1,0 +1,57 @@
+.first{
+    width: 47%;
+    border-radius: 40px;
+    border: 5px solid #FFF7DD;
+    height: 99vh;
+    background-image: url('../otts/first.png');
+    /* background: #524185; */
+    background-size: cover;
+    background-position: center center;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF7DD;
+}
+.title{
+    font-size: 45px;
+    margin: 29% 0px 6% 0px;
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    color: #312651;
+}
+.second{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.but{
+    width: 47%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .fi{
+    width: 45%;
+    margin-bottom: 2%;
+  }
+.name{
+    font-size: 20px;
+    margin: 0px 0px 2% 0px;
+    font-family: 'Darker Grotesque';
+}
+.inp1
+{
+    width: 100%;
+    text-indent: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: 'Darker Grotesque';
+    margin-bottom: 3%;
+    height: 30%;
+    border-radius: 3.823px;
+    border: 0.478px solid #b6b0c7;
+    background: #FFF7DD;
+}
