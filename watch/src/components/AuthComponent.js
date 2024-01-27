@@ -13,7 +13,7 @@ const AuthComponent = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('http://localhost:5001/login', {
+      const response = await fetch('https://watch-later.onrender.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ const AuthComponent = () => {
 
   const handleSignup = async () => {
     try {
-      const response = await fetch('http://localhost:5001/signup', {
+      const response = await fetch('https://watch-later.onrender.com/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -86,7 +86,7 @@ function Main() {
   const fetchWatchlist = async () => {
     try {
       const token = getAuthToken();
-      const response = await fetch('http://localhost:5001/watchlist',{
+      const response = await fetch('https://watch-later.onrender.com/watchlist',{
         method: 'GET',
         headers: {
           'Authorization': `${token}`,
@@ -113,7 +113,7 @@ function Main() {
   
     try {
     const token = getAuthToken();
-      const response = await fetch('http://localhost:5001/watchlist', {
+      const response = await fetch('https://watch-later.onrender.com/watchlist', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -148,7 +148,7 @@ function Main() {
   const handleDelete = async (id) => {
     try {
       const token = getAuthToken();
-      const response = await fetch(`http://localhost:5001/watchlist/${id}`, {
+      const response = await fetch(`https://watch-later.onrender.com/watchlist/${id}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `${token}`,
