@@ -1,0 +1,7 @@
+backend/.env
+backend/.env
+.DS_Store
+backend/.DS_Store
+backend/node_modules
+watch/node_modules
+watch/.DS_Store
