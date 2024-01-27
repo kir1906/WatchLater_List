@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Router>
     <Routes>
-      <Route path="/login" element={<AuthComponent />} />
+      <Route path="/" element={<AuthComponent />} />
       <Route path="/watchlist" element={<Main />} />
     </Routes>
   </Router>

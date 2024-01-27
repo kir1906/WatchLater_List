@@ -66,7 +66,7 @@ function Main() {
   ];
   const logout = () => {
     Cookies.remove('jwt');
-    navigate('/login');
+    navigate('/');
   };
   const toggleModal = () => {
     setModal(!modal);
